@@ -1,0 +1,7 @@
+import logging
+
+
+def configure_client_logging(UDP_IP):
+    udp_logfile_client3 = f'client_{UDP_IP}_{UDP_PORT}.log'
+    
+    logging.basicConfig(filename=udp_logfile_client3, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
