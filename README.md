@@ -1,5 +1,4 @@
 Owner: l00186105
-Committed date: Dec 20, 2023
 
 #Python#
 This repository is for Python exercises for the Infrastructure as a Code Module Assignment 2.
